@@ -1,0 +1,13 @@
+{
+  "name": "救急 GASアプリ入口",
+  "short_name": "GASアプリ",
+  "description": "GASで作った救急アプリの入口",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1321",
+  "theme_color": "#14213d",
+  "icons": [
+    {"src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
