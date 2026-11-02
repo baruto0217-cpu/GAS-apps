@@ -1,6 +1,6 @@
 // Service Worker — 救急 GASアプリ入口
 const CACHE_PREFIX = 'gasapps-';
-const CACHE_NAME = CACHE_PREFIX + 'v1';
+const CACHE_NAME = CACHE_PREFIX + 'v2';
 const FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {

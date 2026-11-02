@@ -35,6 +35,13 @@ a.app-card:active{transform:scale(.96);background:rgba(255,255,255,.12);}
 .app-note{font-size:11px;color:#fcd34d;line-height:1.5;}
 .app-tag{font-size:10px;font-weight:700;letter-spacing:.05em;padding:2px 8px;border-radius:20px;color:#fff;background:var(--c);opacity:.9;margin-top:auto;}
 .soon .app-tag{background:#4b5563;}
+.suite-links{width:100%;max-width:420px;padding:0 16px;margin-top:18px;}
+.suite-links-title{font-size:12px;font-weight:700;color:rgba(255,255,255,.55);margin:0 2px 8px;letter-spacing:.08em;}
+.suite-links-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.suite-link{display:flex;align-items:center;gap:8px;padding:11px 12px;border-radius:12px;text-decoration:none;color:#fff;
+  font-size:12px;font-weight:700;line-height:1.35;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);}
+.suite-link:active{transform:scale(.97);background:rgba(255,255,255,.12);}
+.suite-link span{font-size:20px;line-height:1;}
 .footer{max-width:420px;margin-top:8px;font-size:11px;color:rgba(255,255,255,.4);text-align:center;padding:0 20px;line-height:1.7;}
 </style>
 </head>
@@ -121,6 +128,13 @@ a.app-card:active{transform:scale(.96);background:rgba(255,255,255,.12);}
       <div class="app-desc">事故対応の時刻を全員で共有</div>
       <div class="app-tag">準備中</div>
     </div>
+    </div>
+  </div>
+  <div class="suite-links">
+    <div class="suite-links-title">ほかのまとめアプリ</div>
+    <div class="suite-links-row">
+      <a class="suite-link" href="/SOUGOU/"><span>🏥</span>救急アセスメント<br>総合支援</a>
+      <a class="suite-link" href="/KUNREN/"><span>🧰</span>救急<br>訓練・現場ツール</a>
     </div>
   </div>
   <div class="footer">カードを押すと、そのアプリが新しいタブで開きます。<br>
